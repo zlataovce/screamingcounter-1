@@ -1,0 +1,23 @@
+{
+  "name": "download-counter",
+  "version": "1.0.0",
+  "description": "Download Counter",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron . && electron electron.js --no-sandbox"
+  },
+  "author": "JustGreg",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^12.0.0"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.5",
+    "express": "^4.17.1",
+    "jquery": "^3.6.0",
+    "leekslazylogger": "0.0.5",
+    "leekslazylogger-express": "^0.2.0",
+    "remote": "^0.2.6"
+  }
+}
